@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Auto Refresh Pages Qwen3",           // ← Rename that you want
+  "version": "1.0",
+  "description": "自动刷新页面，支持高级选项如清除缓存、随机间隔、多标签刷新等",
+  "permissions": ["activeTab", "storage", "tabs", "notifications"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Auto Refresh Pages by Qwen3"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png"
+  }
+}
