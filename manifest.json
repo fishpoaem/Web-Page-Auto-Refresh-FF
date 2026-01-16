@@ -3,6 +3,7 @@
   "name": "Auto Refresh Pages Qwen3",           // ← Rename that you want
   "version": "1.0",
   "description": "自动刷新页面，支持高级选项如清除缓存、随机间隔、多标签刷新等",
+  "homepage_url": "https://github.com/fishpoaem/Web-Page-Auto-Refresh-FF",
   "permissions": ["activeTab", "storage", "tabs", "notifications"],
   "background": {
     "scripts": ["background.js"]
@@ -17,4 +18,5 @@
     "48": "icons/icon48.png",
     "96": "icons/icon96.png"
   }
+
 }
