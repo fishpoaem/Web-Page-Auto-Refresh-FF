@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Auto Refresh Pages Qwen3",           // ← Rename that you want
+  "name": "Auto Refresh Pages Qwen3",
   "version": "1.0",
   "description": "自动刷新页面，支持高级选项如清除缓存、随机间隔、多标签刷新等",
   "homepage_url": "https://github.com/fishpoaem/Web-Page-Auto-Refresh-FF",
@@ -17,6 +17,16 @@
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "96": "icons/icon96.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "auto-refresh@qwen3.com",
+      "data_collection_permissions": {
+        "description": "This add-on does not collect, store, or transmit any user data. All refresh settings are saved locally in your browser.",
+        "collects": false,
+        "permissions": [],
+        "required": ["none"]
+      }
+    }
   }
-
 }
